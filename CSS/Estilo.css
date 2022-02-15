@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: yellow;
+}
+h5 {
+  color: wheat;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.navList {
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-top: solid yellow;
+  border-bottom: solid yellow;
+}
+
+header {
+  padding: 0.5rem, 0;
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+  opacity: 0.9;
+  background-color: black;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.textFoot {
+  color: yellow;
+  padding: 1rem;
+  text-align: center;
+  border-style: inset;
+  text-decoration: underline;
+}
+.title {
+  max-width: 100%;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transition: all 1s ease;
+}
+.title:hover {
+  transform: rotate(-540deg);
+}
+.contacto1 {
+  color: wheat;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.video {
+  max-width: 100%;
+  margin-left: 1rem;
+  align-items: center;
+}
+
+html {
+  background-color: black;
+  border-left: yellow;
+  border-right: yellow;
+  background-image: url(https://data.1freewallpapers.com/detail/concert-performance-smoke-light-crowd-music.jpg);
+}
+.discografia {
+  color: wheat;
+  margin-top: 14px;
+  margin-bottom: 8px;
+}
+.redes {
+  padding: 14px;
+  margin: 1rem;
+}
+.web {
+  border: inset wheat;
+  margin-left: 3rem;
+  padding: 4px;
+  display: inline-block;
+}
+.recitales {
+  color: wheat;
+  text-align: center;
+  margin-top: 4rem;
+  border-top: solid wheat;
+  border-bottom: solid wheat;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.tarjeta {
+  margin-left: 1.6rem;
+  margin-top: 1rem;
+  height: 365px;
+  width: 300px;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  color: black;
+  border-radius: 1rem;
+  border: solid black;
+  padding: 0px;
+  background-color: rgb(255, 255, 0, 0.95);
+  transition: all 0.4s ease;
+}
+.tarjeta:hover {
+  transform: scale(1.1, 1.1);
+}
+.fechas {
+  list-style: circle;
+  list-style-position: outside;
+}
+.textoWiki {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  background: linear-gradient(360deg, rgb(89, 95, 20), black);
+  overflow: auto;
+}
+.cuadroBanda {
+  height: 315px;
+  width: auto;
+  max-width: 100%;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-style: double;
+  color: yellow;
+  transition: all 0.5s ease;
+}
+.cuadroBanda:hover {
+  transform: scale(1.1, 1.1);
+}
+.cuadro1 {
+  height: 315px;
+  width: 200px;
+  margin: 1rem;
+  border-style: double;
+  color: yellow;
+  transition: all 0.5s ease;
+}
+.cuadro1:hover {
+  transform: scale(1.1, 1.1);
+}
+.cuadro2 {
+  height: 315px;
+  width: 200px;
+  margin: 1rem;
+  margin-right: 2rem;
+  border-style: double;
+  color: yellow;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.cuadro2:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 160px 160px 160px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+  justify-content: center;
+  grid-template-areas: "header header header";
+}
+.item1 {
+  grid-area: header;
+}
+.gridItem {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  border: 4px solid wheat;
+  padding: 20px;
+  background-color: black;
+  opacity: 0.7;
+}
+.vinilo {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 300px;
+  height: 300px;
+  transition: all 6s ease;
+}
+.vinilo:hover {
+  transform: rotate(2880deg);
+}
+.copyright {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+@media screen and (max-width: 500px) {
+  .redesFooter {
+    display: flex;
+    padding: auto;
+  }
+  .web {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+  .video {
+    width: 92%;
+    margin-left: 1rem;
+  }
+  .cuadro1 {
+    display: block;
+    margin: 10px auto;
+  }
+  .cuadro2 {
+    display: block;
+    margin: 10px auto;
+  }
+  .grid {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 10px;
+  }
+  .gridItem {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    border: 2px solid wheat;
+    padding: 5px;
+    background-color: black;
+    opacity: 0.7;
+  }
+  .tarjeta {
+    display: block;
+    margin: 10px auto;
+  }
+  .cuadroBanda {
+    margin-left: 0rem;
+  }
+}

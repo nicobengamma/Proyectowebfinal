@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/Estilo.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navList">
+          <li class="nav"><a href="index.html">Inicio</a></li>
+          <li class="nav"><a href="Discografia.html">Discografia</a></li>
+          <li class="nav"><a href="Fechas.html">Fechas</a></li>
+          <li class="nav"><a href="Contacto.html"></a>Contacto</li>
+        </ul>
+      </nav>
+    </header>
+    <h5>Contacto</h5>
+    <div class="contacto1">
+      <form action="">
+        <fieldset>
+          <legend>Contactanos !</legend>
+          <label for="Nombre">Nombre</label>
+          <input
+            type="text"
+            name="Nombre"
+            placeholder="Escriba su nombre"
+            id="Nombre"
+            required
+          />
+          <br />
+          <br />
+          <label for="Apellido">Apellido</label>
+          <input
+            type="text"
+            name="Apellido"
+            placeholder="Escriba su apellido"
+            id="Apellido"
+            required
+          />
+          <br />
+          <br />
+          <label for="Pais">Pais</label>
+          <input
+            type="text"
+            name="Pais"
+            placeholder="Nombre de su pais"
+            id="Pais"
+            required
+          />
+          <br />
+          <br />
+          <label for="CP">Codigo Postal</label>
+          <input
+            type="number"
+            name="CP"
+            placeholder="Valores numericos"
+            id="CP"
+            required
+          />
+          <br />
+          <br />
+          <div>Me identifico como :</div>
+          <br />
+          Fanatico/a
+          <input type="radio" name="Motivo" value="Fanatico" required />
+          Discografica
+          <input type="radio" name="Motivo" value="Discografica" required />
+          Otros
+          <input type="radio" name="Motivo" value="Otros" required />
+          <br />
+          <br />
+          <input type="checkbox" name="Confirma" value="1" required /> No Soy Un
+          Robot
+          <br />
+          <br />
+          <div>Me quiero comunicar con:</div>
+          <select name="Entidad" id="Entidad" required>
+            <option value="Nada"></option>
+            <option value="Banda">Banda</option>
+            <option value="Abogados">Abogados</option>
+            <option value="Representantes">Representantes</option>
+          </select>
+          <br />
+          <br />
+          <div>
+            <label for="mensaje"
+              >A continuacion puedes escribir tu mensaje:</label
+            >
+            <br />
+            <textarea
+              name="mensaje"
+              placeholder="Evite usar palabras que insulten u ofendan a la integridad de la banda o sus allegados, Gracias Totales !!"
+              required
+              id="mensaje"
+              cols="35"
+              rows="10"
+            ></textarea>
+            <br />
+            <br />
+            <input type="submit" value="Enviar mensaje" />
+            <input type="reset" value="Borrar todo" />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
