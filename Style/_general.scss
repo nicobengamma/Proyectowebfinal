@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 a {
-  color: white;
+  color: $colorNameSection;
 }
 a:hover {
-  color: yellow;
+  color: $colorNameSectionHover;
 }
 h5 {
   color: wheat;
@@ -16,11 +16,10 @@ h5 {
   margin-top: 1rem;
 }
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: $fontfamily;
 }
 html {
-  background-color: black;
   border-left: yellow;
   border-right: yellow;
-  background-image: url(https://data.1freewallpapers.com/detail/concert-performance-smoke-light-crowd-music.jpg);
+  background: $background;
 }
