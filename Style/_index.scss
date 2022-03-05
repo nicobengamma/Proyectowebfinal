@@ -126,7 +126,7 @@ header {
 .tarjeta {
   margin-left: 1.6rem;
   margin-top: 1rem;
-  height: 365px;
+  height: $ancho * 2;
   width: 300px;
   overflow: hidden;
   display: inline-block;
@@ -144,7 +144,7 @@ header {
 .galery {
   margin-left: 3rem;
   margin-top: 1rem;
-  height: 365px;
+  height: $ancho * 2;
   width: 600px;
   overflow: hidden;
   display: inline-block;
