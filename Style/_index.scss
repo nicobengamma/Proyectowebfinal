@@ -141,6 +141,24 @@ header {
 .tarjeta:hover {
   transform: $hoverAnimationCuadros;
 }
+.galery {
+  margin-left: 3rem;
+  margin-top: 1rem;
+  height: 365px;
+  width: 600px;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  color: black;
+  border-radius: 1rem;
+  border: solid black;
+  padding: 0px;
+  background-color: rgba(255, 255, 0, 0.95);
+  transition: $transitionAnimationCuadros;
+}
+.galery:hover {
+  transform: $hoverAnimationCuadros;
+}
 .fechas {
   list-style: circle;
   list-style-position: outside;
