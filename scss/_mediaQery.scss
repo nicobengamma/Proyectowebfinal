@@ -1,7 +1,6 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .redesFooter {
-    display: flex;
-    padding: auto;
+    width: 100%;
   }
   .web {
     margin: 1rem 1rem 1rem 1rem;
@@ -13,17 +12,17 @@
   }
   .cuadro1 {
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
   }
   .cuadro2 {
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
   }
   .grid {
     padding: 15px;
     display: grid;
     grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 50px 50px 50px;
+    grid-template-rows: 70px 70px 70px;
     grid-gap: 10px;
   }
   .gridItem {
@@ -48,6 +47,12 @@
     overflow: auto;
   }
   .cuadroBanda {
-    margin-left: 0rem;
+    margin: 0rem;
+  }
+  .textFoot {
+    margin: 0rem;
+  }
+  .carousel-item {
+    height: 400px;
   }
 }

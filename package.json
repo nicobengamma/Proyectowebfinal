@@ -1,0 +1,20 @@
+{
+  "name": "segundo-respaldo-proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicobengamma/Proyectowebfinal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicobengamma/Proyectowebfinal/issues"
+  },
+  "homepage": "https://github.com/nicobengamma/Proyectowebfinal#readme"
+}
