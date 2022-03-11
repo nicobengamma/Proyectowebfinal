@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: $colorNameSection;
+}
+a:hover {
+  color: $colorNameSectionHover;
+}
+h4 {
+  color: wheat;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+h5 {
+  color: black;
+  text-shadow: 0 0 20px rgb(255, 255, 255);
+  font-size: 3rem;
+}
+body {
+  font-family: $fontfamily;
+  background: $background;
+}
+html {
+  border-left: yellow;
+  border-right: yellow;
+}
