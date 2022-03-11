@@ -64,7 +64,7 @@ header .navList {
 }
 
 .cuadroBanda:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 
 .cuadro1 {
@@ -77,7 +77,7 @@ header .navList {
 }
 
 .cuadro1:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 
 .cuadro2 {
@@ -92,7 +92,7 @@ header .navList {
 }
 
 .cuadro2:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 
 .textoWiki {
@@ -154,7 +154,7 @@ header .navList {
 }
 
 .tarjeta:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 
 .galery {
@@ -174,7 +174,7 @@ header .navList {
 }
 
 .galery:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 
 .fechas {
@@ -248,7 +248,7 @@ header .navList {
 }
 
 #biocard:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 
 #biocardband {
