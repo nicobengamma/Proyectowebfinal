@@ -22,8 +22,6 @@ header {
   color: yellow;
   padding: 1rem;
   text-align: center;
-  border-style: inset;
-  text-decoration: underline;
 }
 .title {
   max-width: 100%;
@@ -214,4 +212,7 @@ header {
 }
 #imagenCarousell {
   height: 550px;
+}
+#biocard {
+  background-color: yellow;
 }

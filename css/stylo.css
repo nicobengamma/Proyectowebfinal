@@ -24,8 +24,6 @@ header .navList {
   color: yellow;
   padding: 1rem;
   text-align: center;
-  border-style: inset;
-  text-decoration: underline;
 }
 
 .title {
@@ -244,6 +242,10 @@ header .navList {
   height: 550px;
 }
 
+#biocard {
+  background-color: yellow;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -266,8 +268,8 @@ h4 {
 }
 
 h5 {
-  color: black;
-  text-shadow: 0 0 20px white;
+  color: white;
+  text-shadow: 15px 15px 15px black;
   font-size: 3rem;
 }
 
