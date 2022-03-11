@@ -57,6 +57,7 @@ header .navList {
   height: 315px;
   width: auto;
   max-width: 100%;
+  margin-top: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
   border-style: double;
@@ -239,6 +240,10 @@ header .navList {
   color: white;
 }
 
+#imagenCarousell {
+  height: 550px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -341,8 +346,8 @@ html {
     margin: 0rem;
   }
 
-  .carousel-item {
-    height: 400px;
+  #imagenCarousell {
+    height: 300px;
   }
 }
 
