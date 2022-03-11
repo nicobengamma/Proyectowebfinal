@@ -225,5 +225,50 @@ header {
   transition: $transitionAnimationCuadros;
 }
 #biocardband:hover {
-  transform: scale(1.05);
+  transform: $hoverAnimationCuadros;
+}
+body {
+  background-color: #f2f2f2;
+}
+.social-bar {
+  position: fixed;
+  left: -15px;
+  top: 100px;
+  background-color: white;
+
+  &__item {
+    padding: 10px 10px 10px 25px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+    transition-property: transform, opacity;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  &__item:hover {
+    transform: translate(15px);
+    opacity: 0.9;
+  }
+
+  &__fb {
+    background-color: #3b5999;
+  }
+
+  &__twitter {
+    background-color: #55acee;
+  }
+
+  &__linkedin {
+    background-color: #0077b5;
+  }
+
+  &__instagram {
+    background-color: #e4405f;
+  }
+
+  &__youtube {
+    background-color: #bd081c;
+  }
 }
