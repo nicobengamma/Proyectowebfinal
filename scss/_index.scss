@@ -215,4 +215,15 @@ header {
 }
 #biocard {
   background-color: yellow;
+  transition: $transitionAnimationCuadros;
+}
+#biocard:hover {
+  transform: $hoverAnimationCuadros;
+}
+#biocardband {
+  background-color: yellow;
+  transition: $transitionAnimationCuadros;
+}
+#biocardband:hover {
+  transform: scale(1.05);
 }

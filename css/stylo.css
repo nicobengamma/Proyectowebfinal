@@ -244,6 +244,20 @@ header .navList {
 
 #biocard {
   background-color: yellow;
+  transition: all 0.5s ease;
+}
+
+#biocard:hover {
+  transform: scale(1.1, 1.1);
+}
+
+#biocardband {
+  background-color: yellow;
+  transition: all 0.5s ease;
+}
+
+#biocardband:hover {
+  transform: scale(1.05);
 }
 
 * {
