@@ -257,7 +257,46 @@ header .navList {
 }
 
 #biocardband:hover {
-  transform: scale(1.05);
+  transform: scale(1.05, 1.05);
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.social-bar {
+  position: fixed;
+  left: -15px;
+  top: 100px;
+  background-color: white;
+}
+.social-bar__item {
+  padding: 10px 10px 10px 25px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  transition-property: transform, opacity;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+}
+.social-bar__item:hover {
+  transform: translate(15px);
+  opacity: 0.9;
+}
+.social-bar__fb {
+  background-color: #3b5999;
+}
+.social-bar__twitter {
+  background-color: #55acee;
+}
+.social-bar__linkedin {
+  background-color: #0077b5;
+}
+.social-bar__instagram {
+  background-color: #e4405f;
+}
+.social-bar__youtube {
+  background-color: #bd081c;
 }
 
 * {
