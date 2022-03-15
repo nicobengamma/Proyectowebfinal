@@ -122,23 +122,14 @@ header {
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
-.tarjeta {
-  margin-left: 1.6rem;
-  margin-top: 1rem;
-  height: 291px;
-  width: 270px;
-  overflow: hidden;
-  display: inline-block;
-  text-align: center;
-  color: black;
-  border-radius: 1rem;
-  border: solid yellow;
-  padding: 0px;
-  background-color: yellow;
+#tarjeta {
   transition: $transitionAnimationCuadros;
 }
-.tarjeta:hover {
+#tarjeta:hover {
   transform: $hoverAnimationCuadros;
+}
+h6 {
+  font-size: 1.2rem;
 }
 .galery {
   margin-left: 3rem;

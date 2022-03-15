@@ -25,6 +25,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <link rel="icon" type="image/png" href="Imagenes/Logo.png" />
     <link rel="stylesheet" href="css/stylo.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
@@ -47,6 +48,16 @@
       </nav>
     </header>
     <!--Fechas de recitales-->
+    <iframe
+      class="d-block w-100"
+      width="560"
+      height="500"
+      src="https://www.youtube.com/embed/AFETxlhCnO0"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
     <h1 class="text-center m-4" id="T-fechas">Proximas fechas</h1>
     <div class="container">
       <div class="row">
@@ -65,7 +76,54 @@
         <div class="col"></div>
       </div>
     </div>
-    <section></section>
+    <section class="text-center m-4">
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Comprar Entradas
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="exampleModalLabel">
+                Fechas Disponibles
+              </h3>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Servicio en mantenimiento... Disculpe las molestias.
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="grid">
       <div class="gridItem item1">Escenario</div>
       <div class="gridItem item2">Campo Lateral</div>
